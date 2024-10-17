@@ -11,7 +11,7 @@ const UserProgress = require('./models/userProgress');
 const Spots = require('./models/Spots');
 const cron = require('node-cron');
 //const GlobalTransactionCounter = require('./models/GlobalTransactionCounter');
-MONGODB_URL = 'mongodb+srv://nazarlymar777:<db_password>@cluster0.kbfzd.mongodb.net/Test?retryWrites=true&w=majority&appName=Cluster0 ;
+MONGODB_URL = 'mongodb+srv://nazarlymar777:<db_password>@cluster0.kbfzd.mongodb.net/Test?retryWrites=true&w=majority&appName=Cluster0' ;
                //mongodb+srv://nazarlymar777:<db_password>@cluster0.kbfzd.mongodb.net/Test?retryWrites=true&w=majority&appName=Cluster0 
 const axios = require('axios');
 const app = express();
